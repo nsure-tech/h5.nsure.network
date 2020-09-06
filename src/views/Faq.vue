@@ -74,37 +74,33 @@ export default {
 
         .title {
             color: #fff;
-            font-size: 36px;
+            font-size: 23px;
             line-height: 1.5;
-            padding: 100px 0 40px;
+            padding: 30px 15px 20px;
         }
     }
 
-    .faq-pages-wrapper {
-        width: 1000px;
-    }
-
     .faq-content {
-        padding: 40px 0;
+        padding: 20px 10px;
         ul {
             > li {
                 background-color: #fff;
-                margin-bottom: 30px;
-                box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.05);
+                margin-bottom: 20px;
+                box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.05);
 
                 .faq-item {
-                    padding: 40px;
+                    padding: 20px;
 
                     .title {
                         color: #1B2532;
-                        font-size: 24px;
-                        line-height: 1.2;
-                        margin-bottom: 30px;
+                        font-size: 18px;
+                        line-height: 1.5;
+                        margin-bottom: 15px;
                     }
 
                     .descrption {
                         color: #1B2532;
-                        font-size: 16px;
+                        font-size: 15px;
                         line-height: 1.5;
                         opacity: 0.4;
                     }

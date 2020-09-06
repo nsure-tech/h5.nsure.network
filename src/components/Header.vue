@@ -2,7 +2,7 @@
     <div class="header home">
         <div class="pages-wrapper header-wrapper">
             <div class="logon-wrapper" @click="home">
-                <img src="@/assets/images/logo@2x.png" width="40" alt="">
+                <img src="@/assets/images/logo@2x.png" width="30" alt="">
                 <span>Nsure.Network</span>
             </div>
             <div class="right-wrapper">
@@ -67,14 +67,10 @@ export default {
 
     &.home {
         background-color: #1B2532;
-        padding: 0 20px;
+        padding: 0 10px;
 
         span {
             color: #fff;
-        }
-
-        .pages-wrapper {
-            width: 100%;
         }
     }
 
@@ -91,7 +87,7 @@ export default {
         cursor: pointer;
 
         img {
-            margin-right: 20px;
+            margin-right: 10px;
         }
     }
 
@@ -102,8 +98,8 @@ export default {
         align-items: center;
 
         &-item {
-            margin-left: 40px;
-            font-size: 16px;
+            margin-left: 20px;
+            font-size: 14px;
 
             a {
                 color: #fff;
@@ -120,24 +116,6 @@ export default {
                 text-align: center;
                 background: url('../assets/images/button@2x.png') center center no-repeat;
                 background-size: contain;
-            }
-        }
-    }
-
-    .nav-list {
-        display: flex;
-
-        li {
-            font-size: 14px;
-            margin-left: 20px;
-
-            a {
-                color: #000;
-                text-decoration: none;
-
-                &.router-link-active {
-                    color: #00b984;
-                }
             }
         }
     }

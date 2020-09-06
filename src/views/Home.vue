@@ -117,7 +117,7 @@ export default {
 .home {
   .banner {
     color: rgba(255, 255, 255, 0.6);
-    padding: 120px 0;
+    padding: 20px 0 40px;
     background-color: #1B2532;
     display: flex;
     justify-content: center;
@@ -125,25 +125,22 @@ export default {
 
     &-content {
       width: 100%;
-      display: flex;
-      justify-content: space-between;
 
       &-item-left {
-        width: 60%;
 
         .banner-des-box {
-          text-align: left;
-          padding: 0 100px;
+          padding: 0 20px;
+          text-align: center;
 
           h1 {
             color: #fff;
-            font-size: 46px;
-            line-height: 1.2;
+            font-size: 24px;
+            line-height: 1.5;
           }
 
           h3 {
             color: #fff;
-            font-size: 32px;
+            font-size: 15px;
             line-height: 1.2;
             opacity: 0.4;
             margin-top: 30px;
@@ -151,20 +148,20 @@ export default {
           }
 
           .banner-button-wrapper {
-            margin-top: 120px;
+            margin-top: 40px;
             display: flex;
 
             .banner-button {
               color: #fff;
               cursor: pointer;
-              width: 190px;
-              height: 52px;
-              font-size: 18px;
-              line-height: 50px;
+              width: 45%;
+              height: 42px;
+              font-size: 14px;
+              line-height: 40px;
               text-align: center;
               border-radius: 5px;
               border: 1px solid #fff;
-              margin-right: 24px;
+              margin: 0 8px;
 
               a {
                 color: #fff;
@@ -184,12 +181,11 @@ export default {
         }
       }
       &-item-right {
-        width: 40%;
+        margin-top: 50px;
 
         .banner-img {
           img {
             width: 100%;
-            max-width: 586px;
           }
         }
       }
@@ -198,18 +194,15 @@ export default {
 
   .contnet {
     background-color: #F5F6F7;
-    padding: 100px 0;
+    padding: 10px 0;
   }
 
   .content-wrapper {
-    display: flex;
-    justify-content: space-between;
 
     .content-item {
-      width: 400px;
 
       .content-item-box {
-        height: 430px;
+        height: 400px;
         padding: 30px 10px 10px;
         position: relative;
 
@@ -228,7 +221,7 @@ export default {
 
         h3 {
           color: #1B2532;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 1.5;
           margin-bottom: 20px;
         }
@@ -236,7 +229,7 @@ export default {
         p {
           color: #1B2532;
           opacity: 0.4;
-          font-size: 16px;
+          font-size: 14px;
           line-height: 1.5;
         }
       }
@@ -248,25 +241,25 @@ export default {
     color: #fff;
     background-color: #1B2532;
     .footer-wrapper {
-      display: flex;
-      justify-content: space-between;
-      padding: 80px 0 100px;
+      padding: 20px 15px;
 
       .logon-wrapper {
         display: flex;
         align-items: center;
         cursor: pointer;
+        font-size: 18px;
 
         img {
-            margin-right: 20px;
+            margin-right: 10px;
         }
       }
 
       .footer-right {
+        padding-top: 20px;
         display: flex;
 
         &-item {
-          margin-left: 40px;
+          width: 50%;
 
           .footer-title {
             font-size: 14px;
