@@ -8,9 +8,9 @@
             <h1>Open Insurance Platform for Open Finance</h1>
             <h3>Create an insurance market to trade risk</h3>
             <div class="banner-button-wrapper">
-              <div class="banner-button">
+              <!-- <div class="banner-button">
                 <a href="https://form.typeform.com/to/t61JRnFA" target="_blank" rel="">Join Waitlist</a>
-              </div>
+              </div> -->
               <div class="banner-button">
                 <a href="https://buy.nsure.network/#/">MVP on Rinkeby</a>
               </div>
@@ -154,6 +154,7 @@ export default {
           .banner-button-wrapper {
             margin-top: 40px;
             display: flex;
+            justify-content: center;
 
             .banner-button {
               color: #fff;
