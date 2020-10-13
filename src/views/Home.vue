@@ -228,6 +228,15 @@ export default {
           ]
         },
         {
+          name: 'Jessie Wang',
+          job: 'Insurance Model Design & Communication',
+          introduction: [
+            'Majored in Actuarial Science, achieved certified actuary credential (FCAS).',
+            'Previously with Allianz as Product Manager for more than 2 years, in charge of insurance products for Hong Kong and Singapore markets. Prior to that, worked in Aon Analytic Team for around 3 years with extensive experience in actuarial and catastrophe analysis.'
+          ]
+        },
+
+        {
           name: 'Vincent Bauwens',
           job: 'Marketing',
           introduction: [
@@ -243,12 +252,13 @@ export default {
             'Developed his carreer in Venture Capital space as analyst for different token funds. Currently in the AI*blockchain intersection doing Crypto Data Analytics. Provided strategic consulting, including HTF startups, web3  & Italian Undersecretary of State for the Ministry of Economic Development.'
           ]
         },
+
+
         {
-          name: 'Jessie Wang',
-          job: 'Insurance Model Design & Communication',
+          name: 'Anne Shuai',
+          job: 'UI Designer',
           introduction: [
-            'Previously with Allianz as Product Manager for more than 2 years, in charge of insurance products for Hong Kong and Singapore markets. ',
-            'Prior to that, worked in Aon Analytic Team for around 3 years with extensive experience in actuarial and catastrophe analysis.'
+            'Previously in charge of UI designs for Palm Entertainment Xuan Dong Information Technology Co., Ltd., HeShuai has spent her past years providing and managing UI design features for tech companies and digital applications.',
           ]
         },
         {
@@ -259,13 +269,8 @@ export default {
             'Previously engaged with development of blockchain wallets, exchanges and cross-platform development. Past experience includes mid- and back-end development of IM social software in Javascript iOS for large IT companies.'
           ]
         },
-        {
-          name: 'Cherry Shuai',
-          job: 'UI Designer',
-          introduction: [
-            'Previously in charge of UI designs for Palm Entertainment Xuan Dong Information Technology Co., Ltd., HeShuai has spent her past years providing and managing UI design features for tech companies and digital applications.',
-          ]
-        },
+
+
       ]
     }
   }
