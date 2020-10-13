@@ -418,7 +418,7 @@ export default {
         margin-bottom: 40px;
       }
       h2 {
-        font-weight: 20px;
+        font-weight: 200;
         color: #13c7fd;
         margin: 30px 0 40px;
       }
