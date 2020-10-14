@@ -7,7 +7,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -23,13 +23,13 @@ jobs:
     # react项目为npm run-script build，vue项目改为npm run build
     - name: Install and Build
       run: |
-        npm install
-        npm run-script build
+        yarn
+        npm run build:prod
      
     # react项目的FOLDER为build，vue项目改为dist   
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.NSURE_WEBSITE_SECRET }}
-        BRANCH: pages
-        FOLDER: dist
+        BRANCH: gh-pages
+        FOLDER: dist/prod
