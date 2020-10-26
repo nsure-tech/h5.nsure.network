@@ -7,7 +7,7 @@
     <div class="banner">
       <div class="banner-content">
         <div class="banner-content-item banner-content-item-left">
-          <div class="banner-des-box"> 
+          <div class="banner-des-box">
             <h1>Open Insurance Platform for Open Finance</h1>
             <h3>Create an insurance market to trade risk</h3>
             <div class="banner-button-wrapper">
@@ -107,7 +107,7 @@
       </div>
     </div>
     <!-- team end -->
-
+    <mechanism/>
     <!-- footer start -->
     <div class="footer">
       <div class="pages-wrapper footer-wrapper">
@@ -122,19 +122,19 @@
             <div class="footer-title">SOCIAL</div>
             <ul class="footer-right-item-list">
               <li>
-                <img src="../assets/images/twiiter@2x.png" width="16" alt=""> 
+                <img src="../assets/images/twiiter@2x.png" width="16" alt="">
                 <a href="https://twitter.com/Nsure_network" target="_blank" rel="">Twitter</a>
               </li>
               <li>
-                <img src="../assets/images/discord@2x.png" width="16" alt=""> 
+                <img src="../assets/images/discord@2x.png" width="16" alt="">
                 <a href="https://discord.com/invite/nSvAapa" target="_blank" rel="">Discord</a>
               </li>
               <li>
-                <img src="../assets/images/telegram@2x.png" width="16" alt="">  
+                <img src="../assets/images/telegram@2x.png" width="16" alt="">
                 <a href="https://t.me/nsurenet" target="_blank" rel="">Telegram</a>
               </li>
               <li>
-                <img src="../assets/images/medium@2x.png" width="16" alt="">  
+                <img src="../assets/images/medium@2x.png" width="16" alt="">
                 <a href="https://medium.com/@nsure_network" target="_blank" rel="">Medium</a>
               </li>
             </ul>
@@ -155,8 +155,14 @@
 </template>
 
 <script>
-export default {
+
+  import mechanism from '../components/mechanism'
+
+  export default {
   name: 'Home',
+    components:{
+      mechanism
+    },
   data() {
     return {
       tips: 'Beware of Any Scam Attempts. $NSURE token has not been deployed yet. Any pools found are impersonations and SCAM ATTEMPTS. Do not engage with such.',
@@ -382,7 +388,7 @@ export default {
         .img-box {
           text-align: center;
           padding-top: 30px;
-  
+
           img {
             width: 240px;
           }
@@ -394,7 +400,7 @@ export default {
           line-height: 1.5;
           margin-bottom: 20px;
         }
-  
+
         p {
           color: #1B2532;
           opacity: 0.4;
