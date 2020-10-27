@@ -117,6 +117,8 @@
                 text-align: center;
                 line-height: 1.5;
 
+
+
             }
 
             p {
