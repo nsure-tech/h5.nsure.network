@@ -30,6 +30,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.NSURE_WEBSITE_SECRET }}
         BRANCH: gh-pages
         FOLDER: dist/prod
