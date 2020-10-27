@@ -2,7 +2,7 @@
   "name": "nsure-network-mobile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fangyu199.github.io/h5.nsure.network",
+  "homepage": "https://fangyu199.github.io/h5.nsure.network1",
   "scripts": {
     "start": "vue-cli-service serve --mode dev",
     "build:test": "vue-cli-service build --mode test",
