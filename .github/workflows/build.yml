@@ -19,17 +19,17 @@ jobs:
       uses: actions/checkout@v2
       with:
         persist-credentials: false
-        
+
     # react项目为npm run-script build，vue项目改为npm run build
     - name: Install and Build
       run: |
         yarn
         npm run build:prod
-     
-    # react项目的FOLDER为build，vue项目改为dist   
+
+    # react项目的FOLDER为build，vue项目改为dist
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.NSURE_WEBSITE_SECRET }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: dist/prod
