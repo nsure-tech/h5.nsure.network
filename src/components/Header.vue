@@ -16,6 +16,7 @@
                     <div class="right-list-item">
                         <router-link to="/faq">FAQ</router-link>
                     </div>
+
                     <!-- <div class="right-list-item last">
                         <a href="https://buy.nsure.network/#/" class="last-item" rel="">Testnet</a>
                     </div> -->
